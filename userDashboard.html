@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | jobSearch</title>
+    <link rel="stylesheet" href="./Styles/userDashboard.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div id="navBar">
+        <div id="logo"><img src="./Photos/JobSearch.jpg" alt="Logo" onclick="location.href=`./index.html`"></div>
+        <div id="nav">
+            <ul>
+                <li onclick="location.href=`./index.html`">Jobs</li>
+                <li onclick="location.href=`./index.html`">Companies</li>
+                <li onclick="location.href=`./index.html`">Services</li>
+            </ul>
+            
+        </div>
+        
+
+        <div id="login">
+            
+            <div><img src="./Photos/bell.png" alt="bellIcon" class="img"></div>
+            <div>
+                <img src="./Photos/user.png" alt="user" class="img" onclick="location.href=`./userDashboard.html`">
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div class="bg">
+    </div>
+
+    <div class="parent">
+
+        <div class="child1">
+
+            <!-- Search Part -->
+            <div class="search">
+                <p>Search Jobs</p>
+                <div>
+                    <div>
+                        <input type="text" placeholder="Enter Skills / Companies" id="searchInput">
+                        <a href="./searchPage.html">
+                            <div class="search1" onclick="search()">
+                                <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
+                                <lord-icon
+                                    src="https://cdn.lordicon.com/rlizirgt.json"
+                                    trigger="hover"
+                                    style="width:25px;height:25x">
+                                </lord-icon>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+
+            <!-- Recommended jobs -->
+            
+            <div id="recom">
+                <p class="recom_p">New Recommended Job(s)</p>
+                <!-- Append Data Here -->
+            </div>
+
+
+            <!-- Job Application status -->
+            <div id="status">
+                <!-- Append Data Here -->
+            </div>
+
+            <!-- Saved Jobs -->
+            <div id="saved">
+                <!-- Append Data here -->
+            </div>
+
+            <!-- Recuriters -->
+            <div id="recruit">
+                <p class="recom_p">Recruiters</p>
+                <div>
+                    <P>New Recruiter Messages</P>
+                    <hr>
+                    <p>You do not have any unread message.</p>
+                    <p style="margin-top: 30px;"> Messages received from different recruiters will appear in this section.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="child2">
+            
+            <!-- Profile Details -->
+            <div id="user">
+                <div class="userImg">
+                    <img src="./Photos/user.png" alt="user" >
+                </div>
+
+                <div id="userData">
+                    <!-- Append Data Here -->
+
+                </div>
+
+            </div>
+            <div class="store">
+                <div>
+                    <p>Get real-time job updates & instant notifications only on the app!</p>
+                    <img src="//static.naukimg.com/s/5/105/i/qrcode.png" alt="QR">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="sub">
+        <p id="subtext"></p>
+    </div>
+
+    <!-- Footer Section -->
+
+    <footer>
+        <hr style="margin-top: 200px;">
+        <div id="footer">
+
+            <!-- Child Div 1 -->
+
+            <div class="foot1">
+
+                <!-- Div 1 -->
+                <div class="socials">
+                    <div>
+                        <img src="./Photos/JobSearch.jpg" alt="Logo">
+                    </div>
+                    <div>
+                        <p>Connect with us</p>
+                        <img src="https://static.naukimg.com/s/0/0/i/new-homepage/facebook.svg" alt="fb" class="foot1Imgs">
+                        <img src="https://static.naukimg.com/s/0/0/i/new-homepage/instagram.svg" alt="Insta" class="foot1Imgs">
+                        <img src="https://static.naukimg.com/s/0/0/i/new-homepage/twitter.svg" alt="twtr" class="foot1Imgs">
+                        <img src="https://static.naukimg.com/s/0/0/i/new-homepage/linkedin.svg" alt="linkedin" class="foot1Imgs">
+                    </div>
+                </div>
+
+                <!-- Div 2 -->
+
+                <div class="sitemap">
+                    <p>About us</p>
+                    <p>Careers</p>
+                    <p>Employer home</p>
+                    <p>Sitemap</p>
+                </div>
+
+                <!-- Div 3 -->
+
+                <div class="sitemap">
+                    <p>Help center</p>
+                    <p>Summons/Notices</p>
+                    <p>Grievances</p>
+                    <p>Report issue</p>
+                </div>
+
+                <!-- Div 4 -->
+                
+                <div class="sitemap">
+                    <p>Privacy policy</p>
+                    <p>Terms & conditions</p>
+                    <p>Fraud alert</p>
+                    <p>Trust & safety</p>
+                </div>
+
+                <!-- Div 5 -->
+
+                <div>
+                    <h3>Apply on the go</h3>
+                    <p>Get real-time job updates on our App</p>
+                    <img src="https://static.naukimg.com/s/0/0/i/new-homepage/android-app.png" alt="Android" class="foot1Imgs">
+                    <img src="https://static.naukimg.com/s/0/0/i/new-homepage/ios-app.png" alt="IOS" class="foot1Imgs">
+                </div>
+                
+            </div>
+            <hr style="width: 65%; margin:auto;">
+            
+            <!-- Child Div 2 -->
+            <div class="foot2">
+                <img src="https://static.naukimg.com/s/0/0/i/new-homepage/infoedge-logo.svg" alt="Infoege" class="foot1Imgs">
+                <p>All trademarks are the property of their respective owners</p>
+                <p>All rights reserved © 2022 Info Edge (India) Ltd.</p>
+            </div>
+
+        </div>
+            
+    </footer>
+</body>
+<script src="./Scripts/userDashboard.js"></script>
+</html>

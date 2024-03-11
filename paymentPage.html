@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="./Styles/paymentPage.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div id="navBar">
+        <div id="logo"><img src="./Photos/JobSearch.jpg" alt="Logo" onclick="location.href=`./index.html`"></div>
+        <div id="nav">
+            <ul>
+                <li onclick="location.href=`./index.html`">Jobs</li>
+                <li onclick="location.href=`./index.html`">Companies</li>
+                <li onclick="location.href=`./index.html`">Services</li>
+            </ul>
+            
+        </div>
+        
+
+        <div id="login">
+            <!-- Append Data Here -->
+            <!-- <div class="line"></div> -->
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <div class="main">
+
+
+        <!-- Child Div 1 -->
+
+        <div class="child1">
+            <h1>Key Features</h1>
+            <div>
+                <div class="img"> <img src="https://static.naukimg.com/s/7/123/i/profileIcon.d9c247a2.png" alt="img"></div>
+                <div class="text">
+                    <h4>Highlight Your Profile</h4>
+                    <p>Your profile is marked as ”Featured” to make you stand out in the Naukri Database as an active jobseeker.</p>
+                </div>
+            </div>
+            
+            <div>
+                <div class="img"> <img src="https://static.naukimg.com/s/7/123/i/rankHighIcon.97b8019a.png" alt="img"></div>
+                <div class="text">
+                    <h4>Rank Higher In Search Results</h4>
+                    <p>Your profile is given a higher rank when recruiters search CVs of active candidates in Naukri database</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="img"> <img src="https://static.naukimg.com/s/7/123/i/dedicatedRM.cf55f9a0.png" alt="img"></div>
+                <div class="text">
+                    <h4>A dedicated relationship manager post purchase</h4>
+                    <p>A dedicated relationship manager will resolve if you have any query post purchasing the service</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Child Div 2 -->
+        <div class="child2">
+            <p>Choose Subscription</p>
+
+            <div class="plan">
+                <div class="plans" id="plan1">
+                    <p>1 Month</p>
+                    <h2> ₹601<sup>*</sup></h2>
+                    <p><s>₹859</s> 30% Off</p>
+                </div>
+                <div class="plans" id="plan2">
+                    <p>3 Month</p>
+                    <h2> ₹1,433<sup>*</sup></h2>
+                    <p><s>₹2047</s> 30% Off</p>
+                </div>
+                <div class="plans" id="plan3">
+                    <p>6 Month</p>
+                    <h2> ₹2118 <sup>*</sup></h2>
+                    <p><s>₹3025</s> 30% Off</p>
+                </div>
+            </div>
+
+            <button id="buy" onclick="location.href=`./makePayment.html`">BUY NOW</button>
+        </div>
+    </div>
+
+
+    <!-- Footer Section -->
+
+    <footer>
+        <hr style="margin-top: 200px;">
+        <div id="footer">
+
+            <!-- Child Div 1 -->
+
+            <div class="foot1">
+
+                <!-- Div 1 -->
+                <div class="socials">
+                    <div>
+                        <img src="./Photos/JobSearch.jpg" alt="Logo">
+                    </div>
+                    <div>
+                        <p>Connect with us</p>
+                        <img src="https://static.naukimg.com/s/0/0/i/new-homepage/facebook.svg" alt="fb" class="foot1Imgs">
+                        <img src="https://static.naukimg.com/s/0/0/i/new-homepage/instagram.svg" alt="Insta" class="foot1Imgs">
+                        <img src="https://static.naukimg.com/s/0/0/i/new-homepage/twitter.svg" alt="twtr" class="foot1Imgs">
+                        <img src="https://static.naukimg.com/s/0/0/i/new-homepage/linkedin.svg" alt="linkedin" class="foot1Imgs">
+                    </div>
+                </div>
+
+                <!-- Div 2 -->
+
+                <div class="sitemap">
+                    <p>About us</p>
+                    <p>Careers</p>
+                    <p>Employer home</p>
+                    <p>Sitemap</p>
+                </div>
+
+                <!-- Div 3 -->
+
+                <div class="sitemap">
+                    <p>Help center</p>
+                    <p>Summons/Notices</p>
+                    <p>Grievances</p>
+                    <p>Report issue</p>
+                </div>
+
+                <!-- Div 4 -->
+                
+                <div class="sitemap">
+                    <p>Privacy policy</p>
+                    <p>Terms & conditions</p>
+                    <p>Fraud alert</p>
+                    <p>Trust & safety</p>
+                </div>
+
+                <!-- Div 5 -->
+
+                <div>
+                    <h3>Apply on the go</h3>
+                    <p>Get real-time job updates on our App</p>
+                    <img src="https://static.naukimg.com/s/0/0/i/new-homepage/android-app.png" alt="Android" class="foot1Imgs">
+                    <img src="https://static.naukimg.com/s/0/0/i/new-homepage/ios-app.png" alt="IOS" class="foot1Imgs">
+                </div>
+                
+            </div>
+            <hr style="width: 65%; margin:auto;">
+            
+            <!-- Child Div 2 -->
+            <div class="foot2">
+                <img src="https://static.naukimg.com/s/0/0/i/new-homepage/infoedge-logo.svg" alt="Infoege" class="foot1Imgs">
+                <p>All trademarks are the property of their respective owners</p>
+                <p>All rights reserved © 2022 Info Edge (India) Ltd.</p>
+            </div>
+
+        </div>
+            
+    </footer>
+</body>
+<script src="./Scripts/paymentPage.js"></script>
+</html>
